@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(102,131,0);
+/* Use a system font, if none are available use an available sans-sarif   font */
+font-family: 'JLR Star Shrek', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+margin: auto;
+height: 100vh;
+display: flex;
+flex-direction: column;
+color: rgb(76, 49, 7);
+width: 50%;
+text-align: center;
+font-size: larger;
+
+
+}
+
+section.board {
+display: grid;
+grid-template-rows: repeat(3, 10vmin);
+grid-template-columns: repeat(3, 10vmin);
+grid-gap: 10vmin;
+margin: auto;
+padding: auto;
+}
+
+div {
+border: 3px solid rgb(213,222,45);
+font-size: 8vmin;
+text-align: center;
+vertical-align: middle;
+
+
+}
+
+button {
+border: 3px solid;
+padding: auto;
+margin: auto;
+border: 3px solid rgb(213,222,45);
+background-color: rgb(102,131,0);
+color: rgb(76, 49, 7);
+font-family: 'JLR Star Shrek';
+font-size: larger;
+}
